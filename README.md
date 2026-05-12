@@ -53,3 +53,22 @@ path/to/mvtec_ad/
         └── crack/
 ```
 
+## Create Virtual Environment
+
+# Using Conda
+```
+conda create -n anomalib python=3.10 -y
+conda activate anomalib
+```
+# Using venv
+```
+python -m venv venv
+```
+# Linux / Mac
+```
+source venv/bin/activate
+```
+# Windows
+```
+venv\Scripts\activate
+```
